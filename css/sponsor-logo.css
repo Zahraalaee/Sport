@@ -1,0 +1,13 @@
+
+section.sponsor-logo{
+    margin: 70px;
+}
+
+section.sponsor-logo>img{
+    margin-left: 100px ;
+    transition: 0.5s;
+}
+
+section.sponsor-logo>img:hover{
+    transform: scale(1.2); 
+}

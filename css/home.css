@@ -1,0 +1,93 @@
+
+/* footer */
+
+section.footer{
+    display: flex;
+    background-color: #0C3543;
+    height: 690px;
+}
+
+section.footer>div>img{
+    height: 690px;
+    width: 760px;
+    transition: 0.2s;
+}
+
+section.footer>div>img:hover{
+    filter: grayscale(100%);
+}
+
+
+section.footer>div>div{
+    display: flex;
+}
+
+section.footer>div>span>img{
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+span.Tfooter{
+    width: 352px;
+    color: white;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    font-family: -webkit-pictograph;
+    line-height: 33px;
+}
+
+
+button.footer{
+    font-size: 16px;
+    float: right;
+    font-weight: bold;
+    font-family: revert;
+    height: 55px;
+    width: 232px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #ff9600;
+    padding: 20px 43px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+    margin-right: 35px;
+    line-height: 0;
+    transition: 0.5s;
+}
+
+button.footer:hover{
+    color: rgb(0, 0, 0);
+    background-color: #aa9474;
+}
+
+div.contact-footer{
+    margin: 40px;
+}
+
+div.contact-footer>h2{
+    font-family: sans-serif;
+    font-weight: normal;
+    color: white;
+    width: 30%;
+    font-size: 30px;
+    margin: 40px;
+}
+
+div.contact-footer>p{
+    line-height: 50px;
+    color: white;
+    font-family: -webkit-pictograph;
+    font-weight: bold;
+}
+
+
+p[data-copy="Excitement"]{
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+

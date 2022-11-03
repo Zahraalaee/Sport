@@ -1,0 +1,229 @@
+
+
+@font-face {
+    font-family: Yellowtail;
+    src: url('../font/Yellowtail-Regular.ttf');
+    
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: FontName;
+    src: url('../font/IBMPlexSans-Bold.ttf');
+    src: url('../font/IBMPlexSans-Light.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @keyframes logo {
+    0%{ top: 0px; opacity: 0; }
+    50%{ top: 10px; opacity: 0.5;  }
+    100%{top: 20px; opacity: 1;  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .sport-logo {
+    animation-name: logo;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+  }
+}
+
+
+
+@keyframes discover {
+    0%{ top: 0px; opacity: 0;}
+    50%{ top: 10px; opacity: 0.5;}
+    100%{top: 20px; opacity: 1;}  
+}
+@media (prefers-reduced-motion: no-preference) {
+    button.start {
+      animation-name: discover;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+    }
+  }
+
+  
+@keyframes Thead{
+    0%{ font-size: 62px; }
+    50%{ font-size: 67px; }
+    50%{ font-size: 72px; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    div.text-head>h1 {
+      animation-name: Thead;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+    }
+  }
+
+  
+@keyframes Adventur {
+    0%{ left: 0px; opacity: 0; }
+    50%{ left: 10px; opacity: 0.5;}
+    100%{left: 20px; opacity: 1;  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    div[data-Adventur="1"] {
+      animation-name: Adventur;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+    }
+  }
+
+  
+@keyframes hr {
+    0%{ width: 1px; }
+    50%{ width: 100px; }
+    100%{ width: 350px; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    div[data-Adventur="1"]>hr {
+      animation-name: hr;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+    }
+  }
+
+
+  
+@keyframes Adventur2 {
+    0%{ right: 0px; opacity: 0; }
+    50%{ right: 10px; opacity: 0.5;}
+    100%{right: 20px; opacity: 1;  }
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    div[data-Adventur="2"]>img {
+      animation-name: Adventur2;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+    }
+  }
+
+  @keyframes discover {
+    0%{ opacity: 0; }
+    50%{  opacity: 0.5;}
+    100%{opacity: 1;}  
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    button[data-discover] {
+      animation-name: discover;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+    }
+  }
+
+  
+@keyframes People {
+    0%{ top: 0; }
+    50%{ top: 10px; }
+    100%{ top: 10px; }
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    section.People {
+      animation-name: People;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+    }
+  }
+
+  
+@keyframes POrange {
+    0%{  background-color: #FFF4E5;}
+    50%{ background-color: #ffcc85; }
+    100%{ background-color: #FFF4E5; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    div.Orange {
+      animation-name: POrange;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+    }
+  }
+
+  @keyframes PGreen {
+    0%{  background-color: #E7FDE9;}
+    50%{ background-color: #a8ffaf; }
+    100%{ background-color: #E7FDE9; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    div.Green {
+      animation-name: PGreen;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+    }
+  }
+
+
+  @keyframes PPurple {
+    0%{  background-color: #F2F2FD;}
+    50%{ background-color: #b3b3ff; }
+    100%{ background-color: #F2F2FD; }
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    div.Purple {
+      animation-name: PPurple;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+    }
+  }
+
+  @keyframes Ppink {
+    0%{  background-color: #FDF1F5;}
+    50%{ background-color: #fc9fbe; }
+    100%{ background-color: #FDF1F5; }
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    div.pink {
+      animation-name: Ppink;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+    }
+  }
+
+  @keyframes top {
+    0%{ top: 0px; opacity: 0; }
+    50%{ top: 10px; opacity: 0.5;  }
+    100%{top: 20px; opacity: 1;  }
+}
+
+
+@keyframes top {
+    0%{ top: 0px; opacity: 0; }
+    50%{ top: 10px; opacity: 0.5;  }
+    100%{top: 20px; opacity: 1;  }
+}
+
+  
+@keyframes text-Extreme {
+    0%{ text-shadow: 2px 2px 3px black, 0 0 25px rgb(255, 255, 255), 0 0 5px rgb(68, 0, 255);}
+    25%{text-shadow: 2px 2px 3px black, 0 0 25px #FF9600, 0 0 5px darkblue; }
+    25%{ text-shadow: 2px 2px 3px black, 0 0 25px rgb(255, 253, 244), 0 0 5px rgb(209, 20, 124);}
+    100%{ text-shadow: 2px 2px 3px black, 0 0 25px #FF9600, 0 0 5px rgba(48, 20, 209, 0.158); }
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .text-Extreme {
+      animation-name: text-Extreme;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+    }
+  }
+
+  

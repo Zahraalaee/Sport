@@ -1,0 +1,117 @@
+section.People{
+    position: relative;
+display: flex;
+justify-content: center;
+margin: 80px;
+animation-name: People ;
+animation-duration: 1s;
+animation-timing-function: linear;
+animation-direction: alternate;
+animation-fill-mode: backwards;
+animation-fill-mode: forwards;
+animation-delay: 0;
+}
+
+
+section.People>div{
+    margin: 25px;
+    padding: 15px 60px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+section.People>div>span{
+    font-size: 79px;
+    font-family: sans-serif;
+}
+
+section.People>div>p{
+    font-size: 14px;
+    font-family: system-ui;
+}
+
+section.People>div.Orange{
+background-color: #FFF4E5;
+background-image: url(../img/stat-bg.webp);
+background-repeat: no-repeat;
+background-size: cover;
+transition: 1s;
+font-weight: bold;
+animation-name: POrange ;
+animation-duration: 0.5s;
+animation-timing-function: linear;
+animation-direction: alternate;
+animation-fill-mode: backwards;
+animation-delay: 0;
+transition: 0.5s;
+}
+
+
+section.People>div.Orange:hover{
+background-color: rgba(255, 166, 0, 0.521);
+}
+
+
+section.People>div.Green{
+background-color: #E7FDE9;
+background-image: url(../img/stat-bg.webp);
+background-repeat: no-repeat;
+background-size: cover;
+font-weight: bold;
+transition: 1s;
+animation-name: PGreen ;
+animation-duration: 0.5s;
+animation-timing-function: linear;
+animation-direction: alternate;
+animation-fill-mode: backwards;
+animation-delay: 0.5s;
+transition: 0.5s;
+}
+
+
+
+section.People>div.Green:hover{
+    background-color: rgba(152, 251, 152, 0.678);
+}
+
+section.People>div.Purple{
+background-color: #F2F2FD;
+background-image: url(../img/stat-bg.webp);
+background-repeat: no-repeat;
+background-size: cover;
+font-weight: bold;
+transition: 1s;
+animation-name: PPurple ;
+animation-duration: 0.5s;
+animation-timing-function: linear;
+animation-direction: alternate;
+animation-fill-mode: backwards;
+animation-delay: 0;
+transition: 0.5s;
+}
+
+
+section.People>div.Purple:hover{
+    background-color: rgba(62, 11, 114, 0.308);
+}
+
+section.People>div.pink{
+background-color: #FDF1F5;
+background-image: url(../img/stat-bg.webp);
+background-repeat: no-repeat;
+background-size: cover;
+font-weight: bold;
+transition: 1s;
+animation-name: Ppink ;
+animation-duration: 0.5s;
+animation-timing-function: linear;
+animation-direction: alternate;
+animation-fill-mode: backwards;
+animation-delay: .5s;
+transition: 0.5s;
+}
+
+
+section.People>div.pink:hover{
+    background-color: rgba(236, 130, 148, 0.479);
+}

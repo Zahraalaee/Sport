@@ -1,0 +1,99 @@
+
+
+section.Home-header{
+    height: 675px;    
+    background-color: var(--awb-color1);
+    background-image: url(https://avada.theme-fusion.com/extreme-sports/wp-content/uploads/sites/162/2021/09/header-no-sep.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0px 0px 0px 0px;
+    border-color: #eeeeee;
+    border-style: solid;
+    background-size: cover;
+}
+
+
+div.menu{
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: bold;
+    overflow: hidden;
+    margin: 0px auto;
+  }
+  
+  li {
+    float: left;
+    margin: 20px;
+    font-family: sans-serif;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+      color: #FF9600;
+  }
+
+  .sport-logo{
+      position: relative;
+    width: 225px;
+    height: 67px;
+    margin: 14px 0 0 105px;
+    animation-name: logo ;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+  }
+  
+
+button.start{
+    position: relative;
+    font-size: 16px;
+    float: right;
+    font-weight: bold;
+    font-family: revert;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #ff9600;
+    padding: 20px 62px;
+    margin: 35px 80px;
+    line-height: 0;
+    animation-name: discover ;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+
+button.start:hover{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+
+
+div.text-head>h1{
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 72px;
+margin-top: 70px;
+font-family: SANS-SERIF;
+position: relative;
+top: 57px;
+animation-name: Thead ;
+animation-duration: 1s;
+animation-timing-function: linear;
+animation-direction: alternate;
+}

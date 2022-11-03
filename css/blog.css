@@ -1,0 +1,44 @@
+
+
+section.blog{
+    background-color: #F7F7F7;
+    padding: 50px;
+}
+
+div[data-Sports="blog"]{
+    display: flex;
+    background-color: #F7F7F7;
+    color: rgb(0, 0, 0);
+}
+
+div[data-Sports="blog"]>div{
+    width: 36%;
+    margin-left: 50px;
+}
+
+div[data-Sports="blog"]>div>hr{
+    width: 100px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+div[data-Sports="blog"]>div>h4{
+    font-family: 'Yellowtail';
+    font-size: 25px;
+    color:#ff9600;
+}
+
+div[data-Sports="blog"]>div>h2{
+    font-size: 50px;
+    font-family: sans-serif; 
+    margin-bottom: 30px; 
+}
+
+
+div[data-Sports="blog"]>p{
+    margin-top: 100px;
+    font-family: sans-serif;
+    width: 607px;
+    line-height: 40px;
+    text-align: justify;
+}

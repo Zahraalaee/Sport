@@ -1,0 +1,143 @@
+
+section.all-extreme{
+    background-color: #0c3543;
+}
+
+div[data-Sports="Extreme"]{
+    display: flex;
+    background-color: #0C3543;
+    color: white;
+    padding: 50px;
+}
+
+div[data-Sports="Extreme"]>div{
+    width: 36%;
+    margin-left: 50px;
+}
+
+
+
+div[data-Sports="Extreme"]>div>hr{
+    width: 100px;
+    float: left;
+}
+
+div[data-Sports="Extreme"]>div>h4{
+    font-family: 'Yellowtail';
+    font-size: 25px;
+    color:#ff9600;
+}
+
+div[data-Sports="Extreme"]>div>h2{
+    font-size: 50px;
+    font-family: sans-serif;  
+}
+
+
+div[data-Sports="Extreme"]>p{
+    margin-top: 100px;
+    font-family: sans-serif;
+    width: 607px;
+    line-height: 40px;
+    text-align: justify;
+}
+
+
+div[data-Sports-img="top"]{
+    display: flex;
+    justify-content: center;
+}
+
+
+div[data-Sports-img="top"]>div{
+    position: relative;
+    margin: 10px 20px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    background-color: #0F4152;
+    animation-name: top ;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    transition: 1s;
+  }
+
+  
+  div[data-Sports-img="top"]>div:hover{
+    background-color: #ff9600;
+    color: black;
+}
+
+div[data-Sports-img="top"]>div>h2{
+    font-size: 30px;
+}
+
+div[data-Sports-img="top"]>div>img{
+    width: 420px;
+    border-radius: 10px;
+}
+
+div[data-Sports-img="bottom"]{
+    display: flex;
+    justify-content: center;
+}
+
+div[data-Sports-img="bottom"]>div{
+    position: relative;
+    margin: 75px 20px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    background-color: #0F4152;
+    animation-name: top ;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    transition: 1s;
+  }
+
+  div[data-Sports-img="bottom"]>div:hover{
+    background-color: #ff9600;
+    color: black;
+  }
+
+div[data-Sports-img="bottom"]>div>h2{
+    font-size: 30px;
+}
+
+div[data-Sports-img="bottom"]>div>img{
+    width: 420px;
+    border-radius: 10px;
+}
+
+
+div.text-Extreme{
+    text-align: center;
+    background-image: url(../img/bg-sports-1.webp);
+    background-repeat: no-repeat;
+   margin-bottom: 0px;
+}
+div.text-Extreme>h2{
+    font-family: 'Yellowtail';
+    font-weight: lighter;
+    color: white;
+    font-size: 150px;
+    margin: 0px;
+    animation-name: text-Extreme ;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    }
+    
+
+div.High-back{
+    background-image: url(../img/download\ \(3\).svg);
+    height: 65px;
+    transform: rotateY(180deg);
+}

@@ -1,0 +1,111 @@
+section.Adventur{
+    display: flex;
+    margin: 40px ;
+}
+
+div[data-Adventur="1"]{
+    position: relative;
+    width: 50%;
+    margin: 25px ;
+    animation-name: Adventur ;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+
+div[data-Adventur="1"]>p{
+    width: 580px;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 38px;
+}
+
+div[data-Adventur="1"]>h2{
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+div[data-Adventur="1"]>hr{
+   width: 350px;
+   animation-name: hr ;
+   animation-duration: 1.2s;
+   animation-timing-function: linear;
+   animation-direction: alternate;
+   animation-fill-mode: forwards;
+}
+
+
+
+div[data-Adventur="1"]>div{
+    font-family: sans-serif;
+    line-height: 40px;
+}
+
+div[data-Adventur="1"]>div>span{
+    font-size: 25px;
+    padding-right: 12px;
+    color: #cccccc;
+    transition: 1s;
+
+}
+div[data-Adventur="1"]>div>span:hover{
+    color: #58B9F1;
+}
+
+div[data-Adventur="1"]>h4{
+    font-family: Yellowtail;
+    font-size: 25px;
+    color: #14B9F1;
+}
+
+div[data-Adventur="2"]>img{
+    position: relative;
+border-radius: 25px;
+padding: 10px;
+transition: 1s;
+animation-name: Adventur2 ;
+animation-duration: 0.5s;
+animation-timing-function: linear;
+animation-direction: alternate;
+animation-fill-mode: forwards;
+animation-iteration-count: 1;
+}
+
+
+
+div[data-Adventur="2"]>img:hover{
+    transform: scale(1.08);
+}
+
+img[data-climbing]{
+   position: relative;
+   bottom: 45px;
+}
+
+button[data-discover]{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: revert;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #ff9600;
+    line-height: 0;
+    padding: 30px;
+    margin-top: 30px; 
+    animation-name: discover ;
+    animation-duration: 0.8s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    transition: 0.5s;
+}
+
+
+button[data-discover]:hover{
+    background-color:#0C3543;
+}

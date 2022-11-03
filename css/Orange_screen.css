@@ -1,0 +1,58 @@
+
+section.Orange_screen{
+    background-color: #FF9600;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    padding: 40px;
+}
+
+
+section.Orange_screen>h2{
+    font-family: sans-serif;
+    font-size: 48px;
+}
+
+section.Orange_screen>h5{
+font-size: 25px;
+    font-family: sans-serif;
+}
+
+section.Orange_screen>button[data-join]{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: revert;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #0C3543;
+    line-height: 0;
+    padding: 30px;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+section.Orange_screen>button[data-join]:hover{
+    background-color: #14B9F1;
+    border: 1px solid white;
+}
+
+section.Orange_screen>button[data-view]{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: revert;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: #FF9600;
+    line-height: 0;
+    padding: 30px;
+    transition: 0.5s;
+}
+
+section.Orange_screen>button[data-view]:hover{
+    background-color:#14B9F1 ;
+    border: none;
+}

@@ -1,0 +1,136 @@
+section.Excitement-screen{
+    text-align: center;
+}
+
+section.Excitement-screen>h5{
+    font-family: 'Yellowtail';
+    font-weight: lighter;
+    font-size: 30px;
+    color: #14B9F1;
+}
+
+section.Excitement-screen>h2{
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+div[data-Excitement="icon"]{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+
+div[data-Excitement="icon"]>div{
+    width: 19%;
+    margin: 25px;
+}
+
+div[data-Excitement="icon"]>div>h3{
+    width: 85%;
+    font-family: sans-serif;
+    margin: 30px;
+    line-height: 30px;
+}
+
+div[data-Excitement="icon"]>div>p{
+    font-family: -webkit-pictograph;
+    line-height: 25px;
+    width: 100%;
+    font-size: 14px;
+}
+
+div[data-Excitement="icon"]>div>span{
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+    border-radius: 140px;
+    font-size: 65px;
+    transition: 1s;
+}
+
+
+div[data-Excitement="icon"]>div>span.blue-icon{
+    background-color: aliceblue;
+    color: #002f60bf;
+}
+
+div[data-Excitement="icon"]>div>span.blue-icon:hover{
+    background-color: rgb(196, 227, 255);
+    color: #002e60;
+}
+
+
+div[data-Excitement="icon"]>div>span.green-icon{
+    background-color: #f0fff6;
+    color: #185a13b0;
+}
+
+div[data-Excitement="icon"]>div>span.green-icon:hover{
+    background-color: #b8ffd5;
+    color: #185a13fa;
+}
+
+
+
+div[data-Excitement="icon"]>div>span.orange-icon{
+    background-color: #fff7f0;
+    color: #70290091;
+}
+
+div[data-Excitement="icon"]>div>span.orange-icon:hover{
+    background-color: #ffcb9d;
+    color: #702900d5;
+}
+
+
+div[data-Excitement="icon"]>div>span.pink-icon{
+    background-color: #fff0f9;
+    color: #a0004a94;
+}
+div[data-Excitement="icon"]>div>span.pink-icon:hover{
+    background-color: #ffb8e3;
+    color: #a0004bf1;
+}
+
+
+div.All-Terrain{
+    display: flex;
+    justify-content: center;
+}
+
+div.All-Terrain>div{
+    width:27%;
+    margin: 10px 20px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    background-color: #ffffff;
+    transition: 1s;
+}
+
+div.All-Terrain>div:hover{
+    box-shadow: 10px 10px 5px rgb(168, 167, 167);
+}
+
+div.All-Terrain>div>img{
+    width: 360px;
+    transition: 1s;
+}
+
+div.All-Terrain>div>img:hover{
+    cursor: zoom-in;
+    opacity: 0.7;
+}
+
+div.All-Terrain>div>h2{
+    color: #0b190cb8;
+    width: 355px;
+    margin-bottom: 14px;
+}
+
+div.All-Terrain>div>p{
+    color: #9c9c9c;
+    line-height: 30px;
+}
+
